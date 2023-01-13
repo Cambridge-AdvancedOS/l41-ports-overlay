@@ -1,10 +1,18 @@
-PORTNAME=	anytree
+#
+# The port is based on devel/anytree from the FreeBSD ports by
+# arrowd@FreeBSD.org.
+#
+PORTNAME=	anytree-l41
 DISTVERSION=	2.8.0
 CATEGORIES=	devel python
-MASTER_SITES=	PYPI
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
-MAINTAINER=	arrowd@FreeBSD.org
+USE_GITHUB=	yes
+GH_ACCOUNT=	RosieBaish
+GH_PROJECT=	anytree
+GH_COMMIT=	261a7a4a3a6f74a7197a645b8cc47c905eec3c92
+
+MAINTAINER=	konrad.witaszczyk@cl.cam.ac.uk
 COMMENT=	Powerful and Lightweight Python Tree Data Structure
 WWW=		https://github.com/c0fec0de/anytree
 
