@@ -10,7 +10,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 USE_GITHUB=	yes
 GH_ACCOUNT=	RosieBaish
 GH_PROJECT=	anytree
-GH_COMMIT=	261a7a4a3a6f74a7197a645b8cc47c905eec3c92
+GH_TAGNAME=	261a7a4a3a6f74a7197a645b8cc47c905eec3c92
 
 MAINTAINER=	konrad.witaszczyk@cl.cam.ac.uk
 COMMENT=	Powerful and Lightweight Python Tree Data Structure
