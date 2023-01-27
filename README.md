@@ -13,7 +13,7 @@ The following commands can be used to build a package. After the build, the pack
 ```
 $ git clone --branch release/13.1.0 https://github.com/freebsd/freebsd-ports.git
 $ git clone https://github.com/Cambridge-AdvancedOS/l41-ports-overlay.git
-$ env PORTSIDR=`realpath freebsd-ports` make -C l41-ports-overlay/path/to/port package
+$ env PORTSDIR=`realpath freebsd-ports` make -C l41-ports-overlay/path/to/port package
 ```
 
 The package should be added to the [advopsys-packages](https://github.com/Cambridge-AdvancedOS/advopsys-packages/) repository in a directory `packages/All/` within a branch corresponding to the current course edition. Additionally, `packagify.sh` must be modified to install an additional package if it's not a dependency of a package that is already listed in that file.
