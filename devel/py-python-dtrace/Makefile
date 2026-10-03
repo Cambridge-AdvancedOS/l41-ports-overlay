@@ -1,8 +1,12 @@
 PORTNAME=	python-dtrace
 PORTVERSION=	0.0.15
 CATEGORIES=	devel python
-MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
+
+USE_GITHUB=	yes
+GH_ACCOUNT=	tmetsch
+GH_PROJECT=	python-dtrace
+GH_TAGNAME=	1cc6897eded5af05ec210d5fd08489d0ab5b9a26
 
 MAINTAINER=	gcj21@cl.cam.ac.uk
 COMMENT=	DTrace consumer for Python based on libdtrace
