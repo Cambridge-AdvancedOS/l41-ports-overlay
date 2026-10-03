@@ -6,12 +6,12 @@ This repository includes ports for packages used in L41 that do not have ports a
 
 In order to build a package, you need a FreeBSD ports branch corresponding to a FreeBSD version used in [l41-freebsd](https://github.com/Cambridge-AdvancedOS/l41-freebsd) and [l41-image](https://github.com/Cambridge-AdvancedOS/l41-image), and this repository.
 
-As of the 2022-2023 L41 course edition, the [release/13.1.0](https://github.com/freebsd/freebsd-ports/tree/release/13.1.0) FreeBSD port tag should be used that corresponds to the [l41-2021-2022-stable/13](https://github.com/Cambridge-AdvancedOS/l41-freebsd/tree/l41-2021-2022-stable/13) l41-freebsd branch (based on [stable/13](https://github.com/freebsd/freebsd-src/tree/0b12cc411b46d5fa9569b46c8ff512f316d1b8a1) that also was used for [releng/13.1](https://github.com/freebsd/freebsd-src/tree/releng/13.1)).
+As of the 2026-2027 L41 course edition, the [release/15.1.0a](https://github.com/freebsd/freebsd-ports/tree/release/15.1.0a) FreeBSD port tag should be used that corresponds to the [l41-2026-2027-stable/15](https://github.com/Cambridge-AdvancedOS/l41-freebsd/tree/l41-2026-2027-stable/15) l41-freebsd branch (based on [stable/15](https://github.com/freebsd/freebsd-src/tree/8a6c20aee2fae9bca0c81dde271f7362c9ac3bb3)).
 
 The following commands can be used to build a package. After the build, the package should be available in `l41-ports-overlay/path/to/port/work*/pkg/`.
 
 ```
-$ git clone --branch release/13.1.0 https://github.com/freebsd/freebsd-ports.git
+$ git clone --branch release/15.1.0a https://github.com/freebsd/freebsd-ports.git
 $ git clone https://github.com/Cambridge-AdvancedOS/l41-ports-overlay.git
 $ env PORTSDIR=`realpath freebsd-ports` make -C l41-ports-overlay/path/to/port package
 ```
