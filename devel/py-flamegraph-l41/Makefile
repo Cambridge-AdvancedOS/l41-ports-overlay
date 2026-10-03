@@ -6,7 +6,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 USE_GITHUB=	yes
 GH_ACCOUNT=	Cambridge-AdvancedOS
 GH_PROJECT=	pyflamegraph
-GH_TAGNAME=	8d449e6661b712f2590c119ce42e4682e9ecf91d
+GH_TAGNAME=	76ed5e7cd2b778a02c74d777725c4a9febbc65a1
 
 MAINTAINER=	konrad.witaszczyk@cl.cam.ac.uk
 COMMENT=	Flame Graph library
